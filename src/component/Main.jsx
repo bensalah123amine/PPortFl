@@ -14,7 +14,8 @@ const Main = () => {
     <div>
           <main id={mainStyle.main}>
 
-{/* <!-- ======= About Section ======= --> */}
+<div >
+  {/* <!-- ======= About Section ======= --> */}
 <About/>
 
 {/* <!-- ======= Facts Section ======= --> */}
@@ -36,6 +37,7 @@ const Main = () => {
 
 
 <Contact/>
+</div>
 
 </main>
     </div>

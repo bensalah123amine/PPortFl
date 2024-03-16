@@ -28,8 +28,8 @@ let cActive = 'active';
    
 
       <div className="profile">
-        <img src={myImage}   alt="" className="img-fluid rounded-circle"/>
-        <h1 className="text-light"><Link to="index.html"> BENSALAH AMINE </Link></h1>
+        <img src={myImage}   alt=" MYIMAGE" className="img-fluid rounded-circle"/>
+        <h1 className="text-light"> BENSALAH AMINE </h1>
         <div className="social-links mt-3 text-center" >
         
           <Link style={{color:'#1DA1F2',background:'white'}} to="#" className="twitter" >  <FontAwesomeIcon icon={faTwitter} /></Link>
@@ -68,7 +68,9 @@ export default Header
 const HeaderP = styled.header`
 
 
-
+@media only screen and (max-width: 600px) {
+    display: none;
+}
 
     position: fixed;
     top: 0;

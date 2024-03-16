@@ -7,7 +7,7 @@ import myImage from "../images/myImage1.jpg"
 
 const About = () => {
     const data = [
-        {name:"Birthday:",solve:"1 May 1995"},
+        
         {name:"Website:",solve:"www.amine.com"},
         {name:"Phone:",solve:"+212651495479"},
         {name:"City:",solve:"MADAGH-BERKANE, MAROC"},
@@ -15,7 +15,7 @@ const About = () => {
       
       ]
     const data2 =[
-        {name:"Age:",solve:"30"},
+        {name:"Age:",solve:"33"},
         {name:"Degree:",solve:"Master"},
         {name:"PhEmailone:",solve:"aminebensalah62@gmail.com"},
         {name:"Freelance:",solve:"Available"},

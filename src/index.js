@@ -18,16 +18,19 @@ const IndexPage = () => {
    
       <Layout  >
       
-        
+       
         
      
         <Header/>
-        <Section  id="hero"  className="d-flex flex-column justify-content-center align-items-center">
-    <div className="hero-container" data-aos="fade-in">
-      <h1> Bensalah Amine</h1>
+        
+       <div >
+       <Section   className="  d-flex flex-column  justify-content-center align-items-center">
+    <div  className="hero-container" data-aos="fade-in">
+      <h1> Bensalah Ami </h1>
       
       <ReactTyped
       strings={[
+        
         "Developer full stack",
         "i'm a react js developer",
         "i'm a node js developer",
@@ -51,6 +54,7 @@ const IndexPage = () => {
     </ReactTyped>
     </div>
   </Section>
+       </div>
 
  <Main/>
        
@@ -70,18 +74,17 @@ export default IndexPage
 // styles......................
 const Section = styled.section`
 
-  width: 100%;
-  height: 100vh;
-  background: url("https://media.istockphoto.com/photos/macca-kabe-picture-id508107988?k=20&m=508107988&s=612x612&w=0&h=2Qxg2RzsxqvZN33s4ntFyVNNfvDQZrhFF1Pzmwz8G-M=") top center;
-  background-size: cover;
-  
+width: 100%;
+height: 100vh;
+background: url(https://media.istockphoto.com/photos/macca-kabe-picture-id508107988?k=20&m=508107988&s=612x612&w=0&h=2Qxg2RzsxqvZN33s4ntFyVNNfvDQZrhFF1Pzmwz8G-M=)
+
   
   hero:before {
     content: "";
     background: rgba(5, 13, 24, 0.3);
     position: absolute;
     bottom: 0;
-    top: 0;
+    top: s0;
     left: 0;
     right: 0;
     z-index: 1;
@@ -122,6 +125,7 @@ const Section = styled.section`
   }
   
   @media (max-width: 768px) {
+   
      h1 {
       font-size: 28px;
       line-height: 36px;

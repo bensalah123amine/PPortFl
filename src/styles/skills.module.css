@@ -25,8 +25,32 @@
     height: 10px;
   }
   
-  .progress-bar {
+  .progress-bar75 {
     width: 75%;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #149ddd;
+  }
+  .progress-bar100 {
+    width: 100%;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #149ddd;
+  }
+  .progress-bar90 {
+    width: 90%;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #149ddd;
+  }
+  .progress-bar70 {
+    width: 70%;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #149ddd;
+  }
+  .progress-bar95 {
+    width: 95%;
     height: 10px;
     transition: 0.9s;
     background-color: #149ddd;
