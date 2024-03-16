@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-resume-js-84b426fce736a6e3f44e.js","mappings":"0JAQA,UANA,WACE,OACE,2BAAK,SAET,C","sources":["webpack://gatsby-starter-default/./src/pages/resume.js"],"sourcesContent":["import React from 'react'\r\n\r\nfunction resume() {\r\n  return (\r\n    <div>resume</div>\r\n  )\r\n}\r\n\r\nexport default resume"],"names":[],"sourceRoot":""}
