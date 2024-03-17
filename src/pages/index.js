@@ -5,6 +5,7 @@ import Main from "../component/Main";
 import Header from "../component/Header";
 import styled from "styled-components";
 import { ReactTyped } from "react-typed";
+import ButtonMobile from "../component/ButtonMobile";
 
 
 
@@ -15,50 +16,54 @@ import { ReactTyped } from "react-typed";
 
 const IndexPage = () => {
   return (
-   
-      <Layout  >
-      
-        
-        
-     
-        <Header/>
-        <Section  id="hero"  className="d-flex flex-column justify-content-center align-items-center">
-    <div className="hero-container" data-aos="fade-in">
-      <h1> Bensalah Amine</h1>
-      
-      <ReactTyped
-      strings={[
-        "Developer full stack",
-        "i'm a react js developer",
-        "i'm a node js developer",
-        "i'm a gatsby jsdeveloper",
-        "i'm a mongoDb developer "
-        
 
-      ]}
-      typeSpeed={40}
-      backSpeed={50}
-      
-      loop
-    >
-     <input type="text" style={{
-      width:400,
-      height:50,
-      border:'none',
-      backgroundColor:'blue',
-      color:'white'
-     }}/>
-    </ReactTyped>
-    </div>
-  </Section>
+    <Layout  >
 
- <Main/>
-       
-        
-       
 
-      </Layout>
-      
+
+
+      <div className="  px-xs-4 w-100 bg-red">
+
+        <Header />
+        <ButtonMobile/>
+        <Section id="hero" className=" d-flex flex-column justify-content-center align-items-center">
+          <div className="hero-container" data-aos="fade-in">
+            <h1> Bensalah Amine</h1>
+
+            <ReactTyped
+              strings={[
+                "Developer full stack",
+                "i'm a react js developer",
+                "i'm a node js developer",
+                "i'm a gatsby jsdeveloper",
+                "i'm a mongoDb developer "
+
+
+              ]}
+              typeSpeed={40}
+              backSpeed={50}
+
+              loop
+            >
+              <input type="text" style={{
+                width: 400,
+                height: 50,
+                border: 'none',
+                backgroundColor: 'blue',
+                color: 'white'
+              }} />
+            </ReactTyped>
+          </div>
+        </Section>
+
+        <Main />
+      </div>
+
+
+
+
+    </Layout>
+
   )
 }
 
@@ -69,12 +74,18 @@ export default IndexPage
 
 // styles......................
 const Section = styled.section`
-
-  width: 100%;
+margin-left: 300px;
+ 
   height: 100vh;
   background: url("https://media.istockphoto.com/photos/macca-kabe-picture-id508107988?k=20&m=508107988&s=612x612&w=0&h=2Qxg2RzsxqvZN33s4ntFyVNNfvDQZrhFF1Pzmwz8G-M=") top center;
   background-size: cover;
   
+  @media only screen and (max-width: 600px) {
+    
+    margin-left: 0px;
+    
+   
+}
   
   hero:before {
     content: "";

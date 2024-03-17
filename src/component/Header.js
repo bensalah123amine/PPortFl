@@ -69,7 +69,8 @@ const HeaderP = styled.header`
 
 
 @media only screen and (max-width: 600px) {
-    display: none;
+  visibility: hidden;
+ 
 }
 
     position: fixed;

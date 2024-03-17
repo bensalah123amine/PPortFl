@@ -23,7 +23,7 @@ const About = () => {
       
       ]
   return (
-    <section id="about" className={aboutStyle}>
+    <section id="about"  className={aboutStyle}>
   <div className="container">
     
 
